@@ -10,3 +10,4 @@
 
 ## NOTES
 - Without proper .env files, API calls and DB connections may not work.
+- DB is set to private as this is not production code, so profile creation may not work properly.
