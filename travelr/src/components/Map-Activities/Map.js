@@ -102,8 +102,8 @@ class HotelMap extends Component {
     render() {
       return (
         <div style={{marginLeft: '30%', height: '970px', width: '100%' }}>
-            <h1 style={{ marginTop:'5%'}}>Attraction Things To Do</h1>
-            <h2>Find Attraction Places:</h2>
+            <h1 style={{ marginTop:'5%'}}>Attractions</h1>
+            <h2>Find Activities:</h2>
           <input type="text" id="autocomplete" placeholder="Enter a city you want to visit" />
           <button style={{marginLeft:'2%'}} onClick={this.handleSearchClick}>Search</button>
           <div id="map" style={{ marginBottom:'2%', height: '700px', width: '770px' }}></div>
